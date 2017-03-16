@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'concourse_t2';
+    src: url('type/concourse_t2_bold_italic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'concourse_t2';
+    src: url('type/concourse_t2_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'concourse_t2';
+    src: url('type/concourse_t2_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'concourse_t2';
+    src: url('concourse_t2_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*, body {
+    background-color: black;
+    color: white;
+    font-family: 'concourse_t2', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+h1 {
+    font-size: 40px;
+    font-size: 5vw;
+    font-weight: normal;
+    line-height: 50px;
+}
+
+h2 {
+    font-weight: normal;
+}
