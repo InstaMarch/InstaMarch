@@ -22,7 +22,7 @@
 }
 @font-face {
     font-family: 'concourse_t2';
-    src: url('concourse_t2_regular-webfont.woff') format('woff');
+    src: url('type/concourse_t2_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -36,6 +36,7 @@
     line-height: 28px;
 }
 
+
 h1 {
     font-size: 40px;
     font-size: 4vw;
@@ -45,4 +46,8 @@ h1 {
 
 h2 {
     font-weight: normal;
+}
+header {
+    background-color: white;
+    color: black;
 }
