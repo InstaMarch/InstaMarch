@@ -29,9 +29,9 @@
 
 * {
     font-family: 'concourse_t2', sans-serif;
-    font-size: 18px;
-    letter-spacing: 1.5px;
-    line-height: 28px;
+    font-size: 23px;
+    letter-spacing: 1.25px;
+    line-height: 30px;
 }
 
 
@@ -50,4 +50,12 @@ header {
     color: white;
     float: left;
     width: 100%;
+}
+
+@media (min-width: 700px) {
+
+    .social-media-links, .limitations {
+        margin-left: 17.5%;
+        margin-right: 17.5%;
+    }
 }
