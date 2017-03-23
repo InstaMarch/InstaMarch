@@ -34,7 +34,11 @@
     line-height: 35px;
 }
 body {
-    background-image: url('images/main-background.jpg');
+    background: url('images/main-background.jpg') no-repeat 0% 0%; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
@@ -62,7 +66,8 @@ header {
 @media (min-width: 700px) {
 
     .social-media-links, .limitations {
-        margin-left: 12.5%;
-        margin-right: 12.5%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        padding: 25px;
     }
 }
