@@ -58,9 +58,24 @@ header {
     float: left;
     width: 100%;
 }
+.social-media-links {
+    margin-top: 217px;
+}
 
 .social-media-links, .limitations {
     background-color: rgba(255, 255, 255, .8);
+}
+
+
+@media (min-width: 590px) {
+    .social-media-links li {
+        width: 400px;
+        display: inline-block;
+        padding: 35px; 
+    }
+    .social-media-links a {
+        line-height: 40.1px;
+    }
 }
 
 @media (min-width: 700px) {
