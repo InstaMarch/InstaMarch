@@ -34,7 +34,8 @@
     line-height: 35px;
 }
 body {
-    background: url('images/main-background.jpg') no-repeat 0% 0%; 
+    background: url('images/pearl-street-banner.jpg') no-repeat 0% 0%;
+    background-position: top center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -50,31 +51,64 @@ h1 {
 }
 
 h2 {
+    color: white;
+    font-size: 30px;
     font-weight: normal;
 }
 header {
-    background-color: black;
-    color: white;
+    color: black;
+    background-color: rgba(255, 255, 255, .7);
     float: left;
+    text-indent: 20px;
     width: 100%;
+}
+
+.tagline {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
 }
 .social-media-links {
     margin-top: 217px;
+}
+.social-media-links li {
+    list-style: none;
 }
 
 .social-media-links, .limitations {
     background-color: rgba(255, 255, 255, .8);
 }
 
+a {
+    background-color: #CCCCCC;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #555555;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: #DDDDDD;
+}
+
+.social-media-links a {
+    display: block;
+    padding: 10px; 
+}
+
 
 @media (min-width: 590px) {
     .social-media-links li {
-        width: 400px;
         display: inline-block;
-        padding: 35px; 
+        padding: 15px; 
+        width: 400px;
     }
     .social-media-links a {
-        line-height: 40.1px;
+        line-height: 27.1px;
     }
 }
 
