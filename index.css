@@ -1,3 +1,22 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
 @font-face {
     font-family: 'concourse_t2';
     src: url('type/concourse_t2_bold_italic-webfont.woff') format('woff');
@@ -103,9 +122,10 @@ a:active {
 
 @media (min-width: 590px) {
     .social-media-links li {
-        display: inline-block;
+        display: block;
+        float: left;
         padding: 15px; 
-        width: 400px;
+        width: 50%;
     }
     .social-media-links a {
         line-height: 27.1px;
