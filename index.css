@@ -66,17 +66,18 @@ h1 {
     font-size: 40px;
     font-size: 4vw;
     font-weight: normal;
-    line-height: 50px;
+    letter-spacing: 2.2px;
 }
 
 h2 {
     color: white;
-    font-size: 30px;
+    font-size: 16px;
     font-weight: normal;
+    text-indent: 20px;
 }
 header {
     color: black;
-    background-color: rgba(255, 255, 255, .7);
+    background-color: white;
     float: left;
     text-indent: 20px;
     width: 100%;
@@ -86,11 +87,9 @@ header {
     background-color: rgba(0, 0, 0, .5);
     color: white;
 }
-.social-media-links {
-    margin-top: 217px;
-}
 .social-media-links li {
     list-style: none;
+    margin-bottom: 4px;
 }
 
 .social-media-links, .limitations {
@@ -121,6 +120,15 @@ a:active {
 
 
 @media (min-width: 590px) {
+    h2 {
+        font-size: 23px;
+    }
+    header {
+        background-color: rgba(255, 255, 255, .7);
+    }
+    .social-media-links {
+        margin-top: 155px;
+    }
     .social-media-links li {
         display: block;
         float: left;
