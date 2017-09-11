@@ -118,6 +118,17 @@ a:active {
     padding: 10px; 
 }
 
+.next-event{
+   margin:auto;
+   width:80%;
+   padding:1em;
+   text-align:center;
+   border: solid 1px black;
+   background:#ddd;
+   border-radius:4px;
+   opacity:.9;
+}
+
 
 @media (min-width: 590px) {
     h2 {
@@ -138,6 +149,11 @@ a:active {
     .social-media-links a {
         line-height: 27.1px;
     }
+    .next-event{
+        margin-bottom:-6em;
+    }
+
+
 }
 
 @media (min-width: 700px) {
@@ -147,4 +163,6 @@ a:active {
         margin-right: 7.5%;
         padding: 25px;
     }
+
+
 }
