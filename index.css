@@ -129,6 +129,11 @@ a:active {
     display: block;
 }
 
+.information-study-group li {
+    list-style: none;
+    margin-bottom: .5em; 
+}
+
 .next-event{
    margin:auto;
    width:80%;
