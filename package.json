@@ -1,0 +1,22 @@
+{
+  "name": "instamarch-homepage",
+  "version": "0.0.1",
+  "description": "our homepage and landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InstaMarch/homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InstaMarch/homepage/issues"
+  },
+  "homepage": "https://github.com/InstaMarch/homepage#readme",
+  "dependencies": {
+    "instapage": "0.0.1"
+  }
+}
