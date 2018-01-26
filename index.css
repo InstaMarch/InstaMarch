@@ -118,18 +118,18 @@ a:active {
     padding: 10px; 
 }
 
-.information-study-group {
+.who-wants-democracy {
     background-color: rgba(255, 255, 255, .8);
     margin-left: 7.5%;
     margin-right: 7.5%;
     padding: 25px;
 }
 
-.information-study-group a {
+.who-wants-democracy a {
     display: block;
 }
 
-.information-study-group li {
+.who-wants-democracy li {
     list-style: none;
     margin-bottom: .5em; 
 }
