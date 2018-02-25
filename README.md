@@ -10,8 +10,12 @@ our homepage and landing page
 * Displays next event information
 
 * Informs and navigates users to major services
+
+* Informs user of limitations
  
 ## untold stories:
 
-TBD
+* Facilitates user contact to the organization
+
+* Describes what an imaginary job is
 
