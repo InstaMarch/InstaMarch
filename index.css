@@ -17,6 +17,10 @@
     *zoom: 1;
 }
 
+.spacing {
+    line-height: 16px;
+}
+
 @font-face {
     font-family: 'concourse_t2';
     src: url('type/concourse_t2_bold_italic-webfont.woff') format('woff');
