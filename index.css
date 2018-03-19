@@ -17,9 +17,6 @@
     *zoom: 1;
 }
 
-.spacing {
-    line-height: 16px;
-}
 
 @font-face {
     font-family: 'concourse_t2';
