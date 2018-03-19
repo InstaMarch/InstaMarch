@@ -17,6 +17,7 @@
     *zoom: 1;
 }
 
+
 @font-face {
     font-family: 'concourse_t2';
     src: url('type/concourse_t2_bold_italic-webfont.woff') format('woff');
@@ -61,19 +62,40 @@ body {
     background-size: cover;
 }
 
+.upcoming {
+    font-size: 25px;
+}
 
-h1 {
+
+.main-heading {
     font-size: 40px;
     font-size: 4vw;
     font-weight: normal;
     letter-spacing: 2.2px;
 }
 
-h2 {
+.tagline {
     color: white;
-    font-size: 16px;
+    font-size: 23px;
     font-weight: normal;
     text-indent: 20px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+    
 }
 header {
     color: black;
@@ -83,10 +105,7 @@ header {
     width: 100%;
 }
 
-.tagline {
-    background-color: rgba(0, 0, 0, .5);
-    color: white;
-}
+
 .social-media-links li {
     list-style: none;
     margin-bottom: 4px;
@@ -118,20 +137,28 @@ a:active {
     padding: 10px; 
 }
 
-.who-wants-democracy {
+.next-instamarch {
     background-color: rgba(255, 255, 255, .8);
     margin-left: 7.5%;
     margin-right: 7.5%;
-    padding: 25px;
+    margin-bottom: 3px;
 }
 
-.who-wants-democracy a {
+.instamarch-heading {
+    font-size: 24px;
+}
+
+.next-instamarch a {
     display: block;
 }
 
-.who-wants-democracy li {
+.next-instamarch li {
     list-style: none;
     margin-bottom: .5em; 
+}
+
+.footer-link {
+    margin-bottom: 40px;
 }
 
 .next-event{
