@@ -17,6 +17,9 @@
     *zoom: 1;
 }
 
+.social-media-links img {
+    width: 100%;
+}
 
 @font-face {
     font-family: 'concourse_t2';
