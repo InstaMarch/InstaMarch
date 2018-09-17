@@ -72,16 +72,17 @@ body {
 
 .main-heading {
     font-size: 40px;
-    font-size: 4vw;
     font-weight: normal;
     letter-spacing: 2.2px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .tagline {
     color: white;
     font-size: 23px;
     font-weight: normal;
-    text-indent: 105px;
+    text-indent: 50px;
     background-color: rgba(0, 0, 0, .5);
 }
 
@@ -103,8 +104,7 @@ h6 {
 header {
     color: black;
     background-color: white;
-    float: left;
-    text-indent: 99px;
+    text-indent: 50px;
     width: 100%;
 }
 
@@ -201,7 +201,12 @@ a:active {
 }
 
 @media (min-width: 700px) {
-
+    header {
+        width: 45%;
+    }
+    .main-heading {
+        font-size: 50px;
+    }
     .social-media-links, .limitations {
         margin-left: 7.5%;
         margin-right: 7.5%;
