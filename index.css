@@ -118,6 +118,10 @@ header {
     background-color: rgba(255, 255, 255, .8);
 }
 
+.what-we-do {
+    background-color: rgba(255, 255, 255, .7);
+}
+
 a {
     background-color: #CCCCCC;
     color: black;
