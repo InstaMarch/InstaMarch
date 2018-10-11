@@ -4,17 +4,9 @@
     box-sizing: border-box;
 }
 
-.clearfix:before, .clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix {
-    *zoom: 1;
+.social-media-links ul {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .social-media-links img {
