@@ -4,19 +4,14 @@
     box-sizing: border-box;
 }
 
-.clearfix:before, .clearfix:after {
-    content: " ";
-    display: table;
+.social-media-links ul {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.clearfix:after {
-    clear: both;
+.social-media-links img {
+    width: 100%;
 }
-
-.clearfix {
-    *zoom: 1;
-}
-
 
 @font-face {
     font-family: 'concourse_t2';
@@ -69,16 +64,17 @@ body {
 
 .main-heading {
     font-size: 40px;
-    font-size: 4vw;
     font-weight: normal;
     letter-spacing: 2.2px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .tagline {
     color: white;
     font-size: 23px;
     font-weight: normal;
-    text-indent: 20px;
+    text-indent: 50px;
     background-color: rgba(0, 0, 0, .5);
 }
 
@@ -100,8 +96,7 @@ h6 {
 header {
     color: black;
     background-color: white;
-    float: left;
-    text-indent: 20px;
+    text-indent: 50px;
     width: 100%;
 }
 
@@ -113,6 +108,10 @@ header {
 
 .social-media-links, .limitations {
     background-color: rgba(255, 255, 255, .8);
+}
+
+.what-we-do {
+    background-color: rgba(255, 255, 255, .7);
 }
 
 a {
@@ -198,7 +197,12 @@ a:active {
 }
 
 @media (min-width: 700px) {
-
+    header {
+        width: 45%;
+    }
+    .main-heading {
+        font-size: 50px;
+    }
     .social-media-links, .limitations {
         margin-left: 7.5%;
         margin-right: 7.5%;
